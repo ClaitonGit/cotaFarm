@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "759533320646",
+    "project_id": "cotafarm",
+    "storage_bucket": "cotafarm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759533320646:android:a3aa85c2027bca49c11ac7",
+        "android_client_info": {
+          "package_name": "com.example.cotafar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPglekdyH-4UB33D__GqN_T59G7ZIJTQ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:759533320646:android:f8cb6a0f625774e0c11ac7",
+        "android_client_info": {
+          "package_name": "com.example.cotafarm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPglekdyH-4UB33D__GqN_T59G7ZIJTQ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

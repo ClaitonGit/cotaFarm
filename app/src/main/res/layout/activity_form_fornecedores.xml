@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cadastroFornecedores.formFornecedores">
+
+    <EditText
+        android:id="@+id/editContatoFor"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@android:drawable/ic_menu_call"
+        android:drawablePadding="5dp"
+        android:hint="Contato"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editnomeFor"
+        android:layout_width="match_parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="144dp"
+        android:text="Cadastrar fornecedor."
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editnomeFor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent" />
+
+    <EditText
+        android:id="@+id/editnomeFor"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/baseline_person_24"
+        android:drawablePadding="5dp"
+        android:hint="Nome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView6"  android:layout_width="match_parent"/>
+
+    <EditText
+        android:id="@+id/editEmailFor"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@drawable/email_24"
+        android:drawablePadding="5dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editContatoFor"
+        android:layout_width="match_parent" />
+
+    <EditText
+        android:id="@+id/editEnderecoFor"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="20dp"
+        android:drawableStart="@android:drawable/ic_dialog_map"
+        android:drawablePadding="5dp"
+        android:hint="Endereço"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editEmailFor"
+        android:layout_width="match_parent" />
+
+    <Button
+        android:id="@+id/buttonCadastrarForm"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="32dp"
+        android:text="Salvar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editEnderecoFor"  android:layout_width="match_parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

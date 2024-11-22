@@ -1,0 +1,44 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- AppBar com Toolbar e CollapsingToolbar -->
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:background="#673AB7">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="23dp"
+            android:text="Fornecedores"
+            android:textAlignment="center"
+            android:textColor="#FBF7F7"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <!-- RecyclerView para listar os itens -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewForne"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="8dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <!-- FloatingActionButton ancorado à parte inferior direita -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButtonAddForn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        app:srcCompat="@drawable/addbranco"
+        android:contentDescription="Adicionar novo fornecedor" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
