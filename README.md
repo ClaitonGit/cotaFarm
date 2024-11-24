@@ -13,4 +13,9 @@ Esse aplicativo cadastra remédios e fornecedores para uma farmacia onde o admin
 
 ## Layout mobile
 
-![Mobile 1](https://github.com/user-attachments/assets/c9ec0fc5-8a1c-41de-a719-c3aba2c6fd5f) ![Mobile 2](https://github.com/ClaitonGit/Marketing_Dentista/assets/55120068/3764cb19-70d4-4b13-8b6e-8583afc49ff8.png)
+![Mobile 1](https://github.com/user-attachments/assets/7615f084-b20d-40df-8bc6-3f199aacae44) ![Mobile 2](https://github.com/user-attachments/assets/770f70e2-14b4-464e-87e4-687b68ea877b)
+![Mobile 3]()
+![Mobile 4]()
+![Mobile 5]()
+![Mobile 6]()
+
